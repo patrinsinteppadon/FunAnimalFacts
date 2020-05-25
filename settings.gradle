@@ -1,0 +1,2 @@
+rootProject.name='HW5 - Notifications'
+include ':app'
