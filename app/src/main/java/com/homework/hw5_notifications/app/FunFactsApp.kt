@@ -3,12 +3,12 @@ package com.homework.hw5_notifications.app
 import android.app.Application
 
 class FunFactsApp: Application() {
-    lateinit var apiManager: APIManager
+    lateinit var factsManager: FactsManager
     lateinit var notificationManager: NotificationManager
 
     override fun onCreate() {
         super.onCreate()
-        apiManager = APIManager(this)
+        factsManager = FactsManager(this)
         notificationManager = NotificationManager(this)
     }
 }

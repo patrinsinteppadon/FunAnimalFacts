@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">HW5 - Notifications</string>
+    <string name="app_name">HW5 - Fun Animal Facts</string>
+    <string name="instructions">Click to periodically receive animal facts</string>
+    <string name="error_instructions">Whoops--an error occurred while fetching animal facts</string>
+    <string name="btnStart_text">Send animal facts</string>
 </resources>
