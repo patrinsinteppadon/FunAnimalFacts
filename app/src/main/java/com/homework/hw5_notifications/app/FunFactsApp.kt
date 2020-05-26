@@ -4,11 +4,11 @@ import android.app.Application
 
 class FunFactsApp: Application() {
     lateinit var factsManager: FactsManager
-    lateinit var notificationManager: NotificationManager
+    lateinit var backgroundManager: BackgroundManager
 
     override fun onCreate() {
         super.onCreate()
         factsManager = FactsManager(this)
-        notificationManager = NotificationManager(this)
+        backgroundManager = BackgroundManager(this)
     }
 }

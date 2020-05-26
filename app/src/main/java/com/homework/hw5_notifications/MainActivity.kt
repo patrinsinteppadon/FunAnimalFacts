@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         btnStart.setOnClickListener{
             if (funFactsApp.factsManager.animalFacts.isNotEmpty()) {
-                funFactsApp.notificationManager.beginBackgroundTask()
+                funFactsApp.backgroundManager.beginBackgroundTask()
             } else { // error: animal facts did not load
                 findViewById<TextView>(R.id.tvInstructions).text = getString(R.string.error_instructions)
             }
